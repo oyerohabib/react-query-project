@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import {
+//   getAllIssues,
+//   getMerchantData,
+//   getUserID,
+//   getMerchantIssue,
+//   postMerchantIssue,
+//   deleteMerchantIssue,
+// } from "./UsersApi";
+// import { useEffect } from "react";
+import Users from "./Users";
+import Practice from "./Practice";
+import UseStateForm from "./UseStateForm";
+import UseReducerForm from "./UseReducerForm";
+import Products from "./Products";
 
 function App() {
+  // useEffect(() => {
+  // getUserID();
+  // getAllIssues();
+  // getMerchantData();
+  // getMerchantIssue();
+  // postMerchantIssue()
+  // deleteMerchantIssue()
+  // }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Users/> */}
+      {/* <Practice /> */}
+      {/* <UseStateForm /> */}
+      {/* <UseReducerForm/> */}
+      <Products/>
     </div>
   );
 }
