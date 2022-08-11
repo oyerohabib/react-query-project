@@ -13,6 +13,7 @@ import Practice from "./Practice";
 import UseStateForm from "./UseStateForm";
 import UseReducerForm from "./UseReducerForm";
 import Products from "./Products";
+import UseReducer from "./UseReducer";
 
 function App() {
   // useEffect(() => {
@@ -30,7 +31,8 @@ function App() {
       {/* <Practice /> */}
       {/* <UseStateForm /> */}
       {/* <UseReducerForm/> */}
-      <Products/>
+      {/* <Products/> */}
+      <UseReducer/>
     </div>
   );
 }
