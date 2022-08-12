@@ -14,6 +14,7 @@ import UseStateForm from "./UseStateForm";
 import UseReducerForm from "./UseReducerForm";
 import Products from "./Products";
 import UseReducer from "./UseReducer";
+import Todo from "./Todo";
 
 function App() {
   // useEffect(() => {
@@ -32,7 +33,8 @@ function App() {
       {/* <UseStateForm /> */}
       {/* <UseReducerForm/> */}
       {/* <Products/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      <Todo />
     </div>
   );
 }
