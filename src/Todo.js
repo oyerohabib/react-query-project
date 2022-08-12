@@ -37,7 +37,7 @@ const Todo = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch({ type: ACTIONS.ADDTODO, payload: {name, name} })
+    dispatch({ type: ACTIONS.ADDTODO, payload: {name: name} })
     setName("")
   };
 

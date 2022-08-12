@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import React, { useReducer } from "react";
 
 const ACTIONS = {
   INCREMENT: "increment",
@@ -17,16 +17,13 @@ const reducer = (state, action) => {
 };
 
 const UseReducer = () => {
-  // const [count, setCount] = useState(0)
   const [state, dispatch] = useReducer(reducer, { count: 0 });
 
   const increaseCount = () => {
-    // setCount((prev) => prev + 1)
     dispatch({ type: ACTIONS.INCREMENT });
   };
 
   const decreaseCount = () => {
-    // setCount((prev) => prev - 1)
     dispatch({ type: ACTIONS.DECREMENT });
   };
 

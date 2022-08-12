@@ -31,10 +31,10 @@ function App() {
       {/* <Users/> */}
       {/* <Practice /> */}
       {/* <UseStateForm /> */}
-      {/* <UseReducerForm/> */}
+      <UseReducerForm/>
       {/* <Products/> */}
       {/* <UseReducer/> */}
-      <Todo />
+      {/* <Todo /> */}
     </div>
   );
 }
