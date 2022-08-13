@@ -11,6 +11,9 @@ body {
 
 .App {
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .form-input {
@@ -40,4 +43,12 @@ body {
 
 .form-input .quanity button {
   padding: 5px 10px;
+}
+
+.section1 {
+  width: 40%;
+}
+
+.section2 {
+  width: 60%;
 }

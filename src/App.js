@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
+import { useState } from "react";
 // import {
 //   getAllIssues,
 //   getMerchantData,
@@ -15,8 +17,11 @@ import UseReducerForm from "./UseReducerForm";
 import Products from "./Products";
 import UseReducer from "./UseReducer";
 import Todo from "./Todo";
+import UserDetails from "./UserDetails";
 
 function App() {
+  const [userID, setUserID] = useState();
+
   // useEffect(() => {
   // getUserID();
   // getAllIssues();
@@ -28,10 +33,17 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Users/> */}
+      <div className="section1">
+        <Users setUserID={setUserID} />
+      </div>
+      <div className="section2">
+        <UserDetails userID={userID} />
+        {userID}
+      </div>
+
       {/* <Practice /> */}
       {/* <UseStateForm /> */}
-      <UseReducerForm/>
+      {/* <UseReducerForm/> */}
       {/* <Products/> */}
       {/* <UseReducer/> */}
       {/* <Todo /> */}
